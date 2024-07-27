@@ -18,7 +18,7 @@ arr.forEach(button =>{
             input.value = string;
         }
         else if (e.target.innerText == 'Sqrt') {
-            string = Math.sqrt(eval(string)).toString();
+            string = Math.sqrt(eval(string));
             input.value = string;
          }
 
